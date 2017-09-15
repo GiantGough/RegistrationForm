@@ -1,0 +1,14 @@
+/*******
+ Mobile
+*******/
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+form {
+	flex-direction: column;
+
+}
