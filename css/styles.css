@@ -20,6 +20,10 @@
 	width: 150px;
 }
 
+p {
+	color: #696969;
+}
+
 header {
 	background-color: #008B8B;
 	color: white;
@@ -46,7 +50,7 @@ input {
 }
 
 label {
-	font-color: #d3d3d3;
+	color: #808080;
 	margin-bottom: 5px;
 }
 
@@ -102,6 +106,7 @@ fieldset {
 .main-footer {
 	text-align: center;
 	margin-bottom: 20px;
+	color: #808080;
 }
 
 @media screen and (min-width: 768px) {
