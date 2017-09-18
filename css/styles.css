@@ -82,7 +82,9 @@ select {
   border-radius: 2px;
 }
 
-input:focus {
+input:focus,
+textarea:focus,
+select:focus {
 	outline: 0;
 	background-color: #007ea7;
 	color: white;
@@ -120,21 +122,37 @@ fieldset {
 		margin: 0 15% 0 15%;
 	}
 
+	.hr-1 {
+		margin: 0 15% 0 15%;
+	}
+
+
+
 	header {
 		width: 100%;
 	}
 
 	input,
 	select {
-		max-width: 75%;
+		max-width: 85%;
 	}
 
 	label {
-		width: 25%;
+		width: 15%;
 		float: left;	}
 
 	input[name="user_zip"] {
 		width: 25%;
+	}
+
+	.block {
+		display: flex;
+	}
+
+	.block input[type="radio"],
+	.block input[type="checkbox"] {
+		order: -1;
+		max-width: 4%;
 	}
 
 }
