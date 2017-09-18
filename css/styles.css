@@ -8,6 +8,7 @@
 
 body {
 	background-color: #FBFAFA;
+	font-family: 'Slabo 27px', serif;
 }
 
 .signup {
@@ -33,6 +34,7 @@ header {
 	background-color: #003459;
 	color: white;
 	padding: 15px 0 15px 0;
+	font-size: 28px;
 }
 
 legend,
@@ -74,6 +76,7 @@ select {
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
+  transition: background 0.55s ease-in;
 }
 
 select {
@@ -115,6 +118,17 @@ fieldset {
 	margin-bottom: 20px;
 	color: #808080;
 }
+
+.block {
+	display: flex;
+}
+
+.block input[type="radio"],
+.block input[type="checkbox"] {
+	order: -1;
+	max-width: 4%;
+}
+
 
 @media screen and (min-width: 768px) {
 
