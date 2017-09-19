@@ -140,8 +140,6 @@ fieldset {
 		margin: 0 15% 0 15%;
 	}
 
-
-
 	header {
 		width: 100%;
 	}
@@ -153,7 +151,20 @@ fieldset {
 
 	label {
 		width: 15%;
-		float: left;	}
+		float: left;	
+	}
+
+	.field-1 label {
+		margin-top: 15px;
+	}
+
+	.block label {
+		margin-bottom: 30px;
+	}
+
+	label[for="other"] {
+		width: 50%;
+	}
 
 	input[name="user_zip"] {
 		width: 25%;
